@@ -1,0 +1,121 @@
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6a28;
+}
+
+.nav-link.active::after {
+    width: 30%;
+}
+
+.banner-text {
+    margin-block: 41.5px;
+}
+
+.top-info {
+    top: 28px !important;
+    left: 35px !important;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.76);
+    backdrop-filter: blur(20px);
+    padding: 44px 38px;
+}
+
+.bottom-info {
+    bottom: 28px !important;
+    right: 28px !important;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.76);
+    backdrop-filter: blur(20px);
+    padding: 44px 38px;
+}
+
+.info-count {
+    color: #ff6a28;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.info-text {
+    color: rgba(18, 18, 18, 0.83);
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+}
+
+.subtitle {
+    position: relative;
+    margin-left: 84px;
+}
+
+.subtitle::before {
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 2px;
+    background-color: #ff6a28;
+    top: 50%;
+    left: -7%;
+}
+
+.job-title {
+    color: rgba(18, 18, 18, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.review {
+    background-color: #f8fafb;
+}
+
+.job-text {
+    color: rgba(18, 18, 18, 0.83);
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 34px;
+    line-height: 191%;
+}
+
+.contact {
+    background-color: #F8FAFB;
+    padding-block: 42px;
+}
+
+.contact-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contact-text {
+    color: rgba(18, 18, 18, 0.83);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 191%;
+    margin-top: 72px;
+}
+.contact-form {
+    padding: 36px 40px;
+    background-color: #F8FAFB;
+    border-radius: 10px;
+}
+.contact-form textarea {
+    resize: none;
+}
